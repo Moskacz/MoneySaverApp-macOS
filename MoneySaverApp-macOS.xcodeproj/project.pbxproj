@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		353817FC208E667300EA967F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353817FB208E667300EA967F /* AppDelegate.swift */; };
+		353817FE208E667300EA967F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353817FD208E667300EA967F /* ViewController.swift */; };
+		35381800208E667400EA967F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 353817FF208E667400EA967F /* Assets.xcassets */; };
+		35381803208E667400EA967F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35381801208E667400EA967F /* Main.storyboard */; };
+		3538180F208E667400EA967F /* MoneySaverApp_macOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3538180E208E667400EA967F /* MoneySaverApp_macOSTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3538180B208E667400EA967F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 353817F0208E667300EA967F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 353817F7208E667300EA967F;
+			remoteInfo = "MoneySaverApp-macOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		353817F8208E667300EA967F /* MoneySaverApp-macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MoneySaverApp-macOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		353817FB208E667300EA967F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		353817FD208E667300EA967F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		353817FF208E667400EA967F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		35381802208E667400EA967F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		35381804208E667400EA967F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35381805208E667400EA967F /* MoneySaverApp_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MoneySaverApp_macOS.entitlements; sourceTree = "<group>"; };
+		3538180A208E667400EA967F /* MoneySaverApp-macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MoneySaverApp-macOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3538180E208E667400EA967F /* MoneySaverApp_macOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneySaverApp_macOSTests.swift; sourceTree = "<group>"; };
+		35381810208E667400EA967F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		353817F5208E667300EA967F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35381807208E667400EA967F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		353817EF208E667300EA967F = {
+			isa = PBXGroup;
+			children = (
+				353817FA208E667300EA967F /* MoneySaverApp-macOS */,
+				3538180D208E667400EA967F /* MoneySaverApp-macOSTests */,
+				353817F9208E667300EA967F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		353817F9208E667300EA967F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				353817F8208E667300EA967F /* MoneySaverApp-macOS.app */,
+				3538180A208E667400EA967F /* MoneySaverApp-macOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		353817FA208E667300EA967F /* MoneySaverApp-macOS */ = {
+			isa = PBXGroup;
+			children = (
+				353817FB208E667300EA967F /* AppDelegate.swift */,
+				353817FD208E667300EA967F /* ViewController.swift */,
+				353817FF208E667400EA967F /* Assets.xcassets */,
+				35381801208E667400EA967F /* Main.storyboard */,
+				35381804208E667400EA967F /* Info.plist */,
+				35381805208E667400EA967F /* MoneySaverApp_macOS.entitlements */,
+			);
+			path = "MoneySaverApp-macOS";
+			sourceTree = "<group>";
+		};
+		3538180D208E667400EA967F /* MoneySaverApp-macOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				3538180E208E667400EA967F /* MoneySaverApp_macOSTests.swift */,
+				35381810208E667400EA967F /* Info.plist */,
+			);
+			path = "MoneySaverApp-macOSTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		353817F7208E667300EA967F /* MoneySaverApp-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35381813208E667400EA967F /* Build configuration list for PBXNativeTarget "MoneySaverApp-macOS" */;
+			buildPhases = (
+				353817F4208E667300EA967F /* Sources */,
+				353817F5208E667300EA967F /* Frameworks */,
+				353817F6208E667300EA967F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MoneySaverApp-macOS";
+			productName = "MoneySaverApp-macOS";
+			productReference = 353817F8208E667300EA967F /* MoneySaverApp-macOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		35381809208E667400EA967F /* MoneySaverApp-macOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35381816208E667400EA967F /* Build configuration list for PBXNativeTarget "MoneySaverApp-macOSTests" */;
+			buildPhases = (
+				35381806208E667400EA967F /* Sources */,
+				35381807208E667400EA967F /* Frameworks */,
+				35381808208E667400EA967F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3538180C208E667400EA967F /* PBXTargetDependency */,
+			);
+			name = "MoneySaverApp-macOSTests";
+			productName = "MoneySaverApp-macOSTests";
+			productReference = 3538180A208E667400EA967F /* MoneySaverApp-macOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		353817F0208E667300EA967F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Michal Moskala";
+				TargetAttributes = {
+					353817F7208E667300EA967F = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					35381809208E667400EA967F = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 353817F7208E667300EA967F;
+					};
+				};
+			};
+			buildConfigurationList = 353817F3208E667300EA967F /* Build configuration list for PBXProject "MoneySaverApp-macOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 353817EF208E667300EA967F;
+			productRefGroup = 353817F9208E667300EA967F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				353817F7208E667300EA967F /* MoneySaverApp-macOS */,
+				35381809208E667400EA967F /* MoneySaverApp-macOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		353817F6208E667300EA967F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35381800208E667400EA967F /* Assets.xcassets in Resources */,
+				35381803208E667400EA967F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35381808208E667400EA967F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		353817F4208E667300EA967F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				353817FE208E667300EA967F /* ViewController.swift in Sources */,
+				353817FC208E667300EA967F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35381806208E667400EA967F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3538180F208E667400EA967F /* MoneySaverApp_macOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3538180C208E667400EA967F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 353817F7208E667300EA967F /* MoneySaverApp-macOS */;
+			targetProxy = 3538180B208E667400EA967F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		35381801208E667400EA967F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35381802208E667400EA967F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		35381811208E667400EA967F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		35381812208E667400EA967F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		35381814208E667400EA967F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "MoneySaverApp-macOS/MoneySaverApp_macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = R77HUFLYN8;
+				INFOPLIST_FILE = "MoneySaverApp-macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "michal.moskala.MoneySaverApp-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		35381815208E667400EA967F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "MoneySaverApp-macOS/MoneySaverApp_macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = R77HUFLYN8;
+				INFOPLIST_FILE = "MoneySaverApp-macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "michal.moskala.MoneySaverApp-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		35381817208E667400EA967F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = R77HUFLYN8;
+				INFOPLIST_FILE = "MoneySaverApp-macOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "michal.moskala.MoneySaverApp-macOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoneySaverApp-macOS.app/Contents/MacOS/MoneySaverApp-macOS";
+			};
+			name = Debug;
+		};
+		35381818208E667400EA967F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = R77HUFLYN8;
+				INFOPLIST_FILE = "MoneySaverApp-macOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "michal.moskala.MoneySaverApp-macOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoneySaverApp-macOS.app/Contents/MacOS/MoneySaverApp-macOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		353817F3208E667300EA967F /* Build configuration list for PBXProject "MoneySaverApp-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35381811208E667400EA967F /* Debug */,
+				35381812208E667400EA967F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35381813208E667400EA967F /* Build configuration list for PBXNativeTarget "MoneySaverApp-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35381814208E667400EA967F /* Debug */,
+				35381815208E667400EA967F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35381816208E667400EA967F /* Build configuration list for PBXNativeTarget "MoneySaverApp-macOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35381817208E667400EA967F /* Debug */,
+				35381818208E667400EA967F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 353817F0208E667300EA967F /* Project object */;
+}
